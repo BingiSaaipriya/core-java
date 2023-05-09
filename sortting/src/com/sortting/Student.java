@@ -45,7 +45,7 @@ public class Student implements Comparable<Student>{
 	 public void setfee(double fee) {
 		 this.fee=fee;
 	 }
-		 
+		 @Override
 		 public String toString() {
 			 return "student[id="+id+",name="+name+",address="+address+",fee="+fee+"+,gender="+gender+"]";
 		 }

@@ -43,11 +43,11 @@ public class Persontest {
 	
 			
 public static void main(String[] args)  {
-//	if(getallpersons()!=null) {
-//		getallpersons();
-//	}else {
-//		System.out.println("no persons");
-//	}
+	if(getallpersons()!=null) {
+		getallpersons();
+	}else {
+		System.out.println("no persons");
+	}
 	getapersonsbyid(100);
 }
 }

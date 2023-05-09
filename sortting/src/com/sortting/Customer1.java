@@ -44,7 +44,7 @@ public class Customer1  implements  Comparable<Customer1> {
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
-	
+	@Override
 	public String toString() {
 		return "id:"+" "+id+" "+"name:"+" "+name+" "+"address:"+" "+address+" "+"salary:"+" "+salary;
 		}
