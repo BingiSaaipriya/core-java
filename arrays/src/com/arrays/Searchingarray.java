@@ -18,12 +18,12 @@ public class Searchingarray {
 	
 	
 	String[]  fruits= {"apple","banana","grapes","orange"};
-	String elementsTosearch="banana";
-	for(int i=0;i<4;i++) {
-		if(fruits[i]==elementsTosearch) {
-			System.out.println(fruits[i]);
-		}
-		}
+//	String elementsTosearch="banana";
+//	for(int i=0;i<4;i++) {
+//		if(fruits[i]==elementsTosearch) {
+//			System.out.println(fruits[i]);
+//		}
+		//}
 	
 //	//Enhanced loop 1.5version
 	for(String fruits1:fruits) {
