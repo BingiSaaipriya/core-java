@@ -10,6 +10,11 @@ public class B extends A {
 	void multi() {
 		System.out.println("multi");
 	}
+	@Override
+	void add() {
+		super.add();
+		System.out.println("addition");
+	}
 	
 	
 	

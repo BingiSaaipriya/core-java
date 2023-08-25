@@ -1,0 +1,1 @@
+what is  checked exception in java?checked exception is that ones it using the throws keyword.

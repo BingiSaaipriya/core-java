@@ -18,13 +18,14 @@ public class OuterClass {
 		class InnerClass{
 			
 			void innerMethod() {
-				System.out.println("innerMethod");
 				m1OuterMethod();
+				System.out.println("innerMethod");
+				
 				
 			}
 			
 		}
-		
+	
 		InnerClass ic=new InnerClass();
 		ic.innerMethod();
 		

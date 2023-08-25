@@ -19,7 +19,7 @@ public class Employee {
 	System.out.println(getId());
 		System.out.println(getName());
 		System.out.println(getSalary());
-		
+		System.out.println("display");
 	}
 	
 
@@ -47,5 +47,14 @@ public class Employee {
 		this.salary = salary;
 	
 		
+	}
+	private void privatekey() {
+		System.out.println("private");
+	}
+	void defaultt() {
+		System.out.println("default");
+	}
+	protected void prot() {
+		System.out.println("protected");
 	}
 	}

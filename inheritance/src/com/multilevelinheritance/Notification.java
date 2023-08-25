@@ -1,10 +1,14 @@
 package com.multilevelinheritance;
 
-public class Notification  extends Customer {
+public class Notification  extends Customer{
 String stockquantity="15";
 //String str="15";
 //int stock;
-
+  @Override
+	public void customer(String firstname, String address) {
+	
+		super.customer(firstname, address);
+	}
 public void stockofquantity() {
 System.out.println("stock of quantity");
 

@@ -9,9 +9,9 @@ public class Jionetwork implements Network {
 	}
 
 	@Override
-	public void smsrates() {
-		// TODO Auto-generated method stub
-		System.out.println("jio sms rate:"+"1.23p/sec");
+	public void def() {
+		Network.super.def();
+		System.out.println("overrided method");
 	}
 
 	@Override

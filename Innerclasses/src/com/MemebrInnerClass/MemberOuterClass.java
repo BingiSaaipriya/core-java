@@ -33,6 +33,7 @@ public class MemberOuterClass {
 		outerStaticMethod();
 		
 		MemberOuterClass oc=new MemberOuterClass();
+		//oc.outerMethod();
 		MemberOuterClass.MemberInnerClass ic = oc.new MemberInnerClass();
 		
 		ic.innerMethod();

@@ -22,9 +22,9 @@ public class LinkedListWithQueue {
 		System.out.println(q1);
 		System.out.println("returned head of the queue:"+q1.poll());
 		System.out.println("final queue:"+q1);
-		System.out.println(q1.offer(111111));
-		
-	
+//		System.out.println(q1.offer(111111));
+//		
+//	
 	
 	}
 

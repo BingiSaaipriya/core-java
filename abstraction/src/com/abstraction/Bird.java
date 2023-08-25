@@ -1,6 +1,6 @@
 package com.abstraction;
 
-public class Bird extends Animal {
+public abstract class Bird extends Animal {
 	
 	void flying() {
 		System.out.println("bird isflying");
@@ -9,19 +9,21 @@ public class Bird extends Animal {
 
 	@Override
 	public void eat() {
-		// TODO Auto-generated method stub
+		System.out.println("bird is eating");
 		
 	}
 
 	@Override
 	public void sleep() {
-		// TODO Auto-generated method stub
+		System.out.println("bird is sleeping");
+		
 		
 	}
 
 	@Override
 	public void drink() {
-		// TODO Auto-generated method stub
+		System.out.println("bird is drinking");
+		
 		
 	}
 }

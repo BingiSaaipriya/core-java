@@ -1,6 +1,6 @@
 package com.abstraction;
 
-public class Dog extends Animal {
+public class Dog extends Bird {
 	
 	public void Bath() {
 		System.out.println("dog is bathing");
@@ -23,6 +23,11 @@ public class Dog extends Animal {
 	public void drink() {
 		System.out.println("dog is drinking");
 		
+	}
+	@Override
+	void flying() {
+		System.out.println("bird is flying");
+		super.flying();
 	}
 
 }

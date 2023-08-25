@@ -62,5 +62,5 @@ public class Methodsprogram {
 		area.area1(10,20);
 		
 		System.out.println(Methodsprogram.temp());
-	}
+}
 	}

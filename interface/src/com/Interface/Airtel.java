@@ -8,10 +8,7 @@ public class Airtel implements Network {
 		
 	}
 
-	@Override
-	public void smsrates() {
-		System.out.println("airtel sms rate:"+"1.2p/s");
-	}
+	
 
 	@Override
 	public void datarates() {

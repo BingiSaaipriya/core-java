@@ -14,11 +14,12 @@ public void customer(String firstname,String address) {
 //	super.product(id, name, price);
 //	
 
-
 @Override
-	public void product(int id, String name, double price) {
+public void product(int id, String name, double price) {
+	
 	super.product(id, name, price);
-	}
+}
+
 	
 }
 	

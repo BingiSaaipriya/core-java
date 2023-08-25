@@ -3,18 +3,19 @@ package com.abstraction;
 public class Test1 {
 	
 	public static void main(String[] args) {
-		Bird aa=new Bird();
+		Parrot aa=new Parrot();
 		aa.drink();
 		aa.eat();
 		aa.sleep();
-		aa.flying();
 		
+	
 		Dog dd=new Dog();
 		dd.Bath();
 		dd.jumping();
 		dd.drink();
 		dd.eat();
 		dd.sleep();
+		dd.flying();
 	}
 
 }

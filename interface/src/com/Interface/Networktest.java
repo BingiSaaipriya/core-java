@@ -5,11 +5,11 @@ public class Networktest {
 		Network nn=new Airtel();
 		nn.callrate();
 		nn.datarates();
-		nn.smsrates();
+		nn.def();
 		Network ne=new Jionetwork();
 		ne.callrate();
 		ne.datarates();
-		ne.smsrates();
+		ne.def();
 		
 		
 			

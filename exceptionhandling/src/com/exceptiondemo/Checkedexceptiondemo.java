@@ -8,13 +8,26 @@ import java.io.IOException;
 import javax.print.DocFlavor.BYTE_ARRAY;
 
 public class Checkedexceptiondemo {
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws FileNotFoundException {
 		String messages ="what is  checked exception in java?checked exception is that ones it using the throws keyword.";
-				File file = new File("message.txt") ;
-				FileOutputStream fos = new FileOutputStream(file);
+				File file = new File("priya.txt") ;
+				
+					FileOutputStream fos = new FileOutputStream(file);
+				
 			byte[] bytes=messages.getBytes();
-				fos.write(bytes);
-				fos.close();
+				try {
+					fos.write(bytes);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				try {
+					fos.close();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
 	}
 
 }
